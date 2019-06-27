@@ -1,1 +1,1 @@
-web: gunicorn fulfil.wsgi
+web: gunicorn fulfil.wsgi --log-file -
