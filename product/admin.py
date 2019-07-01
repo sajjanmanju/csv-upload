@@ -1,10 +1,10 @@
 from django.contrib import admin
 from .models import Product
-#from django.contrib.auth.forms import UserCreationForm, UserChangeForm
-#from django.contrib.auth.admin import UserAdmin as AuthUserAdmin
+from django.contrib.auth.forms import UserCreationForm, UserChangeForm
+from django.contrib.auth.admin import UserAdmin as AuthUserAdmin
 from .models import User
 
-"""class MyUserCreationForm(UserCreationForm):
+class MyUserCreationForm(UserCreationForm):
     def clean_username(self):
         username = self.cleaned_data["username"]
         try:
@@ -19,6 +19,6 @@ from .models import User
 
 class UserAdmin(AuthUserAdmin):
     add_form = MyUserCreationForm
-    update_form_class = UserChangeForm"""
+    update_form_class = UserChangeForm
 
 admin.site.register(User,Product)
