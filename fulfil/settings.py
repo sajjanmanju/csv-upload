@@ -77,16 +77,13 @@ WSGI_APPLICATION = 'fulfil.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'product_repo',
-        'USER': 'root',
-        'PASSWORD': 'Manju@123',
-        'HOST': 'localhost',
-        'PORT': '3308',
-        'OPTIONS': {
-            'sql_mode': 'traditional',
-            }
+     'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': 'fulfil_repo',
+    'USER': 'admin',
+    'PASSWORD': admin,
+    'HOST': '127.0.0.1',
+    'PORT': '5432'
     }
 }
 
