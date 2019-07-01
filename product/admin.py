@@ -23,5 +23,5 @@ class MyUserCreationForm(UserCreationForm):
 class MyUserAdmin(UserAdmin):  
     add_form = MyUserCreationForm   
 
-admin.site.register(User,Product)
+admin.site.register(Product)
 #admin.site.register(Product)
