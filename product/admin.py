@@ -18,7 +18,7 @@ class MyUserCreationForm(UserCreationForm):
         raise forms.ValidationError(self.error_messages['duplicate_username'])
 
     class Meta(UserCreationForm.Meta):
-        model = User
+        model = Product
 
 class MyUserAdmin(UserAdmin):  
     add_form = MyUserCreationForm   
