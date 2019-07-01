@@ -1,6 +1,6 @@
 #from django.contrib import admin
 #from .models import Product
-from models import User #you can use get_user_model
+#from models import User #you can use get_user_model
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth import forms
