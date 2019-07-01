@@ -81,7 +81,7 @@ DATABASES = {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'fulfil_repo',
     'USER': 'admin',
-    'PASSWORD': admin,
+    'PASSWORD': 'admin@123',
     'HOST': '127.0.0.1',
     'PORT': '5432'
     }
